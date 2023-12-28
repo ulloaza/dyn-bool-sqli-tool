@@ -36,7 +36,7 @@ def main():
 
     ip = sys.argv[1]
     sql_command = sys.argv[2]
-    print('(+) Running "%s"' % sql_command)
+    print('(+) Running "%s"...' % sql_command)
     sql_command = sql_command.replace(' ', "/**/")
 
     # Dynamically find the string
